@@ -1,0 +1,474 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+
+
+nav {
+    background-color: #295257;
+    color: #1bd6e3;
+    position: fixed;
+    /* Fixes the navbar at the top */
+    top: 0;
+    /* Positions it at the very top */
+    left: 0;
+    /* Positions it at the left edge */
+    width: 100%;
+    /* Makes the navbar span the full width of the page */
+    z-index: 1000;
+    /* Ensures it stays on top of other elements */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Adds a shadow for some depth */
+}
+
+.navbar-image {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+.main-container {
+    background-color: #132626;
+    background-size: cover;
+    padding: 0px;
+    overflow: scroll;
+    width: 100vw;
+}
+
+.Home-Container {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 30px;
+    margin: 10px;
+
+}
+
+.button {
+    background-color: #c8f7f0;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+    color: Black;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #295257;
+    color: white;
+}
+
+.Image-Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.myImage {
+    height: 150px;
+    width: 180px;
+    border-radius: 50%;
+
+}
+
+.icon-container {
+    border-radius: 10px;
+    background-color: #295257;
+    width: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.icon-container:hover {
+    transform: scale(1.5);
+}
+
+.Hi-Container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Sandeep {
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+}
+
+.dev {
+    font-size: 15px;
+    font-family: 'Great Vibes', cursive;
+}
+
+.para {
+    font-size: 15px;
+
+    font-family: 'Great Vibes', cursive;
+}
+
+.about-container {
+    color: white;
+    padding: 30px;
+
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.about-container:hover {
+    background: #295257;
+}
+
+.skill-image {
+    height: 100px;
+    width: 200px;
+}
+
+.my-skills {
+    color: white;
+    padding: 30px;
+
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.my-skills:hover {
+    background: #295257;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3a7191;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    min-height: 250px;
+    max-width: 300px;
+    margin: 20px;
+}
+
+.project-container:hover {
+    transform: scale(1.1);
+    background-color: #132626;
+}
+
+.project-image {
+    width: 150px;
+    height: 150px;
+    border: 15px;
+    color: white;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.project-name {
+    font-size: 25px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: white;
+}
+
+.project-view {
+    font-size: 15px;
+    font-style: italic;
+    color: white;
+}
+
+.project-description-container {
+    overflow: auto;
+}
+
+.my-project {
+    color: white;
+    padding: 30px;
+
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.my-project:hover {
+    background: #295257;
+}
+
+.Project-img {
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+    margin: 10px;
+    transition: transform;
+}
+
+
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.view-now-btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    color: black;
+    border: solid 1px;
+    border-color: #126148;
+}
+
+.view-now-btn:hover {
+    transform: scale(0.9);
+
+}
+
+.my-experience {
+    color: white;
+    margin: 10px;
+    padding: 30px;
+
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.my-experience:hover {
+    background: #295257;
+}
+
+.contact-me {
+    color: white;
+    padding: 30px;
+    border-radius: 30px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.contact-me:hover {
+    background: #295257;
+}
+
+.icon {
+    transition: transform;
+}
+
+.icon:hover {
+    transform: scale(2);
+}
+
+.send-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.send-btn:hover {
+    background-color: #218838;
+}
+
+#responseMessage {
+    margin-top: 15px;
+    color: #d9534f;
+    text-align: center;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.contact-me {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-container {
+    background-color: #3a7191;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    color: black;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    /* Adjust spacing between icons */
+}
+
+.social-icons .icon {
+    text-decoration: none;
+    color: #333;
+    /* Default color for icons */
+    font-size: 24px;
+    /* Size of the icons */
+    transition: color 0.3s, transform 0.3s;
+}
+
+.para {
+    font-size: 15px;
+
+    font-family: 'Great Vibes', cursive;
+}
+
+.social-icons .icon:hover {
+    color: #007bff;
+    /* Color on hover (adjust to your preference) */
+    transform: scale(1.1);
+    /* Slightly enlarge icon on hover */
+}
+
+.social-icons .icon i {
+    display: inline-block;
+}
+
+@media (max-width: 576px) {
+    .icon-container {
+        display: none;
+    }
+}
+
+@media (min-width:768px) {
+    .main-container {
+        background-color: #132626;
+        background-size: cover;
+        padding: 30px;
+        overflow: scroll;
+        width: 100vw;
+    }
+
+    .Home-Container {
+        padding: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        border-radius: 30px;
+        margin: 10px;
+        box-sizing: border-box;
+
+    }
+
+    .Image-Container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 15px;
+        order: 1;
+    }
+
+    .para {
+        font-size: 15px;
+        font-family: 'Great Vibes', cursive;
+    }
+
+    .Hi-Container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-right: 30px;
+    }
+
+    .projects-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .myImage {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+
+    }
+
+    .Sandeep {
+        font-size: 40px;
+        font-weight: 200;
+        font-family: 'Lobster', cursive;
+    }
+
+    .dev {
+        font-size: 20px;
+
+        font-family: 'Great Vibes', cursive;
+    }
+
+    .contact-container {
+        background-color: #3a7191;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 50%;
+        color: black;
+        text-align: left;
+    }
+}
+
+@media (min-width:992px) {
+    .Sandeep {
+        font-size: 50px;
+    }
+
+    .para {
+        font-size: 15px;
+        font-family: 'Great Vibes', cursive;
+    }
+
+    .myImage {
+        height: 350px;
+        width: 350px;
+        border-radius: 50%;
+    }
+
+
+    .Image-Container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 15px;
+        order: 1;
+        transition: transform;
+        transition-duration: 3s;
+    }
+}
